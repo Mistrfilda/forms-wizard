@@ -10,19 +10,18 @@
 	],
 	"require": {
 		"php": ">=7.1",
-		"nette/forms": "^3.0",
-		"nette/http": "^3.0"
+		"nette/forms": "~3.0.0",
+		"nette/http": "~3.0.0"
 	},
 	"require-dev": {
 		"ninjify/qa": "^0.8.0",
 		"ninjify/nunjuck": "^0.2.0",
 		"webchemistry/testing-helpers": "~2.0.0",
-		"latte/latte": "^3.0",
+		"latte/latte": "~2.5.0",
 		"codeception/codeception": "^2.5.1",
-		"nette/application": "^3.0",
-		"nette/di": "^3.0"
+		"nette/application": "~3.0.0",
+		"nette/di": "~3.0.0"
 	},
-	"minimum-stability": "RC",
 	"autoload": {
 		"psr-4": {
 			"Contributte\\FormWizard\\": ["src/"]
